@@ -1,23 +1,5 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <title>oh you're still here</title>
-<meta http-equiv="refresh" content="0; URL=https://buny.plus/index.html">
-<link rel="canonical" href="https://buny.plus/index.html">
-
-
-for i in $(find $dir -type f)
-
-for f in *.html
-do
-    echo '<!DOCTYPE html>' >> "../../heypumpk.in_redirect/$f"
-    echo "<meta charset=\"utf-8\">" >> "../../heypumpk.in_redirect/$f"
-    echo "<title>oh you're still here</title>" >> "../../heypumpk.in_redirect/$f"
-    echo "<meta http-equiv=\"refresh\" content=\"0; URL=https://buny.plus/$f\">" >> "../../heypumpk.in_redirect/$f"
-    echo "<link rel=\"canonical\" href=\"https://buny.plus/$f\">" >> "../../heypumpk.in_redirect/$f"
-done
-
-find * -name '*.html' -exec echo '<!DOCTYPE html>' >> ../../heypumpk.in_redirect/{} \; -exec echo "<meta charset=\"utf-8\">" >> ../../heypumpk.in_redirect/{} \; -exec echo "<title>oh you're still here</title>" >> ../../heypumpk.in_redirect/{} \; -exec echo "<meta http-equiv=\"refresh\" content=\"0; URL=https://buny.plus/{}\">" >> ../../heypumpk.in_redirect/{} \; -exec echo "<link rel=\"canonical\" href=\"https://buny.plus/{}\">" >> ../../heypumpk.in_redirect/{} \;<!DOCTYPE html>
-<meta charset="utf-8">
-<title>oh youre still here</title>
-<meta http-equiv="refresh" content="0; URL=https://buny.plus/index.html">
-<link rel="canonical" href="https://buny.plus/index.html">
+<meta http-equiv="refresh" content="0; URL=https://buny.plus/">
+<link rel="canonical" href="https://buny.plus/">
